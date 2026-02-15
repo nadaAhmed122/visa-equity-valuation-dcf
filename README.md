@@ -1,44 +1,64 @@
-# visa-equity-valuation-dcf
-FCFF DCF Valuation of Visa Inc. using Enhanced 4-Factor DuPont ROE Decomposition and ESG Risk Integration (2020–2024)
-# Visa Inc. Equity Valuation Project (2020–2024)
+# Visa Inc. Intrinsic Equity Valuation (DCF) | 2020–2024
 
-This project develops a full intrinsic valuation model for Visa Inc. using financial statement data from 2020–2024.
+This project implements a full FCFF-based Discounted Cash Flow (DCF) valuation model for Visa Inc., integrating profitability decomposition and ESG risk considerations into intrinsic value estimation.
 
-## Key Features
+---
 
-- Enhanced 4-Factor DuPont ROE Decomposition:
-  ROE = Net Profit Margin × Asset Turnover × Equity Multiplier × Cash Conversion Ratio
+## Modelling Framework
 
-- FCFF-Based Discounted Cash Flow (DCF) Valuation
+The valuation model links operating performance directly to shareholder profitability through an enhanced DuPont decomposition:
 
-- CAPM-Derived Cost of Equity
+ROE = Net Profit Margin × Asset Turnover × Equity Multiplier × Cash Conversion Ratio
 
-- WACC Calculation
+The inclusion of a cash conversion factor allows accounting profitability to be adjusted for earnings quality, ensuring internal consistency with forecasted free cash flows used in enterprise valuation.
 
-- ESG Risk Integration into Valuation Assumptions
+Intrinsic firm value is estimated using:
 
-- 2-Way Sensitivity Analysis (WACC vs Terminal Growth)
+- FCFF Forecasting (2025–2029)
+- CAPM-derived Cost of Equity
+- Weighted Average Cost of Capital (WACC)
+- Terminal Value (Gordon Growth Method)
 
-## Valuation Output
+---
 
-Intrinsic Equity Value: $225.12 per share  
-Base Case WACC: 8.41%  
-Terminal Growth Rate: 2.5%
+## Valuation Results
 
-Sensitivity Range:
-$159 – $372 per share  
-(WACC: 7–10%, g: 1.5–3.5%)
+| Parameter | Base Case |
+|----------|-----------|
+Intrinsic Value | **$225.12/share** |
+WACC | **8.41%** |
+Terminal Growth Rate | **2.5%** |
+
+A 2-way sensitivity analysis (WACC: 7–10%, g: 1.5–3.5%) produces an intrinsic value range of:
+
+**$159 – $372 per share**
+
+---
+
+## ESG Integration
+
+Material ESG risks including:
+
+- Regulatory pressure on interchange fees
+- Cybersecurity and data governance
+- Financial inclusion policies
+
+are incorporated into long-run growth and cost of capital assumptions, reflecting their impact on transaction volumes and valuation sensitivity.
+
+---
 
 ## Tools Used
 
 - Microsoft Excel
 - Financial Statement Analysis
-- DuPont Profitability Decomposition
+- Enhanced DuPont ROE Decomposition
 - CAPM
-- FCFF Valuation Framework
+- FCFF DCF Valuation
 
-## Files
+---
+
+## Repository Contents
 
 Visa_DCF_Model.xlsx → Financial Model  
-Visa_Equity_Valuation_Project.pdf → Full Technical Report
+Visa_Equity_Valuation_Project.pdf → Technical Report
 
