@@ -28,7 +28,6 @@ Intrinsic Value | **$225.12/share** |
 WACC | **8.41%** |
 Terminal Growth Rate | **2.5%** |
 
-A 2-way sensitivity analysis (WACC: 7–10%, g: 1.5–3.5%) produces an intrinsic value range of:
-
+A 2-way sensitivity analysis (WACC: 7–10%, g: 1.5–3.5%) produces an intrinsic value range of:  
 **$159 – $372 per share**
 
