@@ -25,40 +25,4 @@ Intrinsic firm value is estimated using:
 
 | Parameter | Base Case |
 |----------|-----------|
-Intrinsic Value | **$225.12/share** |
-WACC | **8.41%** |
-Terminal Growth Rate | **2.5%** |
-
-A 2-way sensitivity analysis (WACC: 7–10%, g: 1.5–3.5%) produces an intrinsic value range of:
-
-**$159 – $372 per share**
-
----
-
-## ESG Integration
-
-Material ESG risks including:
-
-- Regulatory pressure on interchange fees
-- Cybersecurity and data governance
-- Financial inclusion policies
-
-are incorporated into long-run growth and cost of capital assumptions, reflecting their impact on transaction volumes and valuation sensitivity.
-
----
-
-## Tools Used
-
-- Microsoft Excel
-- Financial Statement Analysis
-- Enhanced DuPont ROE Decomposition
-- CAPM
-- FCFF DCF Valuation
-
----
-
-## Repository Contents
-
-Visa_DCF_Model.xlsx → Financial Model  
-Visa_Equity_Valuation_Project.pdf → Technical Report
-
+Intrinsic Value | **$22**
